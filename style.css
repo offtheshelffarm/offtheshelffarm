@@ -4,11 +4,13 @@ body {
 	font-weight: 400;
 	color: #4a4a4a;
 	font-family: 'Tinos', Georgia, serif;
-	/* font-family: 'Heebo', Helvetica, sans-serif; */
+	border: 0.5rem solid #db57a4;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Zilla Slab', Consolas, 'Courier New', monospace;
+	/* font-family: 'Zilla Slab', Consolas, 'Courier New', monospace; */
+	/* font-family: 'Londrina Outline'; */
+	font-family: 'Londrina Solid';
 }
 
 header {
@@ -60,11 +62,22 @@ header {
 	transform: translateY(50%);
 	left: 0;
 	font-size: 4rem;
-	font-weight: 600;
-	color: #fff;
+	/* font-weight: 600; */
+	color: #db57a4;
+	/* color: #fff; */
 	padding: 0 2rem;
 	text-shadow: -3px -3px 1px rgba(0,0,0,0.02), -3px -2px 1px rgba(0,0,0,0.02), -3px -1px 1px rgba(0,0,0,0.02), -3px 0px 1px rgba(0,0,0,0.02), -3px 1px 1px rgba(0,0,0,0.02), -3px 2px 1px rgba(0,0,0,0.02), -3px 3px 1px rgba(0,0,0,0.02), -2px -3px 1px rgba(0,0,0,0.02), -2px -2px 1px rgba(0,0,0,0.02), -2px -1px 1px rgba(0,0,0,0.02), -2px 0px 1px rgba(0,0,0,0.02), -2px 1px 1px rgba(0,0,0,0.02), -2px 2px 1px rgba(0,0,0,0.02), -2px 3px 1px rgba(0,0,0,0.02), -1px -3px 1px rgba(0,0,0,0.02), -1px -2px 1px rgba(0,0,0,0.02), -1px -1px 1px rgba(0,0,0,0.02), -1px 0px 1px rgba(0,0,0,0.02), -1px 1px 1px rgba(0,0,0,0.02), -1px 2px 1px rgba(0,0,0,0.02), -1px 3px 1px rgba(0,0,0,0.02), 0px -3px 1px rgba(0,0,0,0.02), 0px -2px 1px rgba(0,0,0,0.02), 0px -1px 1px rgba(0,0,0,0.02), 0px 1px 1px rgba(0,0,0,0.02), 0px 2px 1px rgba(0,0,0,0.02), 0px 3px 1px rgba(0,0,0,0.02), 1px -3px 1px rgba(0,0,0,0.02), 1px -2px 1px rgba(0,0,0,0.02), 1px -1px 1px rgba(0,0,0,0.02), 1px 0px 1px rgba(0,0,0,0.02), 1px 1px 1px rgba(0,0,0,0.02), 1px 2px 1px rgba(0,0,0,0.02), 1px 3px 1px rgba(0,0,0,0.02), 2px -3px 1px rgba(0,0,0,0.02), 2px -2px 1px rgba(0,0,0,0.02), 2px -1px 1px rgba(0,0,0,0.02), 2px 0px 1px rgba(0,0,0,0.02), 2px 1px 1px rgba(0,0,0,0.02), 2px 2px 1px rgba(0,0,0,0.02), 2px 3px 1px rgba(0,0,0,0.02), 3px -3px 1px rgba(0,0,0,0.02), 3px -2px 1px rgba(0,0,0,0.02), 3px -1px 1px rgba(0,0,0,0.02), 3px 0px 1px rgba(0,0,0,0.02), 3px 1px 1px rgba(0,0,0,0.02), 3px 2px 1px rgba(0,0,0,0.02), 3px 3px 1px rgba(0,0,0,0.02);
 }
+
+.header__fade {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 25%;
+}
+
+
 
 main {
 	padding: 0 1rem;
@@ -106,13 +119,13 @@ section img {
 
 .btn {
 	display: block;
-	background-color: #f3f;
-	color: #2a2a2a;
+	background-color: #db57a4;
+	color: #541239;
 	margin: 1rem auto;
 	padding: 1rem;
 	margin-top: 3rem;
 	width: 18rem;
-	font-family: 'Zilla Slab', Helvetica, sans-serif;
+	/* font-family: 'Zilla Slab', Helvetica, sans-serif; */
 	font-weight: 600;
 	text-decoration: none;
 	font-size: 1.5rem;
@@ -123,7 +136,7 @@ section img {
 }
 
 .btn:hover {
-	background-color: #f8f;
+	background-color: #e481bb;
 }
 
 /* .egg {
@@ -133,7 +146,7 @@ section img {
 }
 
 .egg path {
-	fill: #f3f;
+	fill: #db57a4;
 } */
 
 .eggs {
@@ -144,7 +157,7 @@ section img {
 }
 
 .eggs path {
-	fill: #f3f;
+	fill: #db57a4;
 }
 
 .eggs--light path {
@@ -153,19 +166,19 @@ section img {
 
 footer {
 	padding: 0.5rem 2rem 2rem 2rem;
-	background-color: #f3f;
+	background-color: #db57a4;
 	font-weight: 700;
 	margin-top: 6rem;
 }
 
 footer a {
 	text-decoration: none;
-	color: #606;
+	color: #541239;
 	display: block;
 	text-align: center;
 	margin-bottom: 2rem;
 	font-size: 1.5rem;
-	font-family: 'Zilla Slab', Helvetica, sans-serif;
+	/* font-family: 'Zilla Slab', Helvetica, sans-serif; */
 }
 
 footer a span {
@@ -179,11 +192,11 @@ footer a svg {
 }
 
 .footer__instagram svg path {
-	fill: #606;
+	fill: #541239;
 }
 
 .footer__email svg path {
-	stroke: #606;
+	stroke: #541239;
 }
 
 .footer__icon {
