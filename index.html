@@ -39,19 +39,25 @@
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 
-	<link href="https://fonts.googleapis.com/css?family=Londrina+Outline" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
 	<style>
 		/* zilla-slab-600 - latin */
-		@font-face {
+		/* @font-face {
 			font-family: 'Zilla Slab';
 			font-style: normal;
 			font-weight: 600;
 			src: local('Zilla Slab SemiBold'), local('ZillaSlab-SemiBold'),
 				url('fonts/zilla-slab-v4-latin-600.woff2') format('woff2'),
-				/* Chrome 26+, Opera 23+, Firefox 39+ */
 				url('fonts/zilla-slab-v4-latin-600.woff') format('woff');
-			/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		} */
+		/* londrina-solid-300 - latin */
+		@font-face {
+			font-family: 'Londrina Solid';
+			font-style: normal;
+			font-weight: 300;
+			src: local('Londrina Solid Light'), local('LondrinaSolid-Light'),
+				url('fonts/londrina-solid-v8-latin-300.woff2') format('woff2'),
+				url('fonts/londrina-solid-v8-latin-300.woff') format('woff');
 		}
 
 		/* tinos-regular - latin */
@@ -61,9 +67,7 @@
 			font-weight: 400;
 			src: local('Tinos Regular'), local('Tinos-Regular'),
 				url('fonts/tinos-v12-latin-regular.woff2') format('woff2'),
-				/* Chrome 26+, Opera 23+, Firefox 39+ */
 				url('fonts/tinos-v12-latin-regular.woff') format('woff');
-			/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 		}
 
 		/* tinos-700 - latin */
@@ -73,14 +77,13 @@
 			font-weight: 700;
 			src: local('Tinos Bold'), local('Tinos-Bold'),
 				url('fonts/tinos-v12-latin-700.woff2') format('woff2'),
-				/* Chrome 26+, Opera 23+, Firefox 39+ */
 				url('fonts/tinos-v12-latin-700.woff') format('woff');
-			/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 		}
 	</style>
 	<link href='reset.css' rel='stylesheet'>
 	<link href='style.css?version=20190506' rel='stylesheet'>
-	<link rel='preload' type='font/woff2' as='font' crossorigin href='assets/fonts/zilla-slab-v4-latin-600.woff2'>
+	<!-- <link rel='preload' type='font/woff2' as='font' crossorigin href='assets/fonts/zilla-slab-v4-latin-600.woff2'> -->
+	<link rel='preload' type='font/woff2' as='font' crossorigin href='londrina-solid-v8-latin-300.woff2'>
 	<link rel='preload' type='font/woff2' as='font' crossorigin href='assets/fonts/tinos-v12-latin-regular.woff2'>
 	<link rel='preload' type='font/woff2' as='font' crossorigin href='assets/fonts/tinos-v12-latin-700.woff2'>
 

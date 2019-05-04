@@ -10,7 +10,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	/* font-family: 'Zilla Slab', Consolas, 'Courier New', monospace; */
 	/* font-family: 'Londrina Outline'; */
-	font-family: 'Londrina Solid';
+	font-family: 'Londrina Solid', Consolas, 'Courier New', monospace;
 }
 
 header {
@@ -57,6 +57,7 @@ header {
 .header__title {
 	position: absolute;
 	bottom: 57.5%;
+	font-weight: 300;
 	-webkit-transform: translateY(50%);
 	-moz-transform: translateY(50%);
 	transform: translateY(50%);
@@ -125,8 +126,9 @@ section img {
 	padding: 1rem;
 	margin-top: 3rem;
 	width: 18rem;
+	font-family: 'Londrina Solid', Consolas, 'Courier New', monospace;
 	/* font-family: 'Zilla Slab', Helvetica, sans-serif; */
-	font-weight: 600;
+	font-weight: 300;
 	text-decoration: none;
 	font-size: 1.5rem;
 	border-radius: 4px;
@@ -165,9 +167,10 @@ section img {
 }
 
 footer {
+	font-family: 'Londrina Solid', Consolas, 'Courier New', monospace;
 	padding: 0.5rem 2rem 2rem 2rem;
 	background-color: #db57a4;
-	font-weight: 700;
+	font-weight: 300;
 	margin-top: 6rem;
 }
 
