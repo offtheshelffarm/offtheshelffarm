@@ -6,11 +6,11 @@
 	<title>Off the Shelf Farm</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
 	<meta name='description' content='Raising grass-fed eggs, lamb, and chicken in The Berkshires.'>
-	<meta name='author' content='Anna Houston'>
-	<meta name='keywords' content=''>
+	<meta name='author' content='Off the Shelf Farm'>
+	<meta name='keywords' content='farm, eggs, chicken, lamb, grass-fed, berkshires, massachusetts'>
 	<meta itemprop='image' content=''>
 	<meta description='itemprop' content=''>
-	<meta itemprop='keywords' content=''>
+	<meta itemprop='keywords' content='farm, eggs, chicken, lamb, grass-fed, berkshires, massachusetts'>
 
 	<meta property='og:title' content='Off the Shelf Farm' />
 	<meta property='og:site_name' content='Off the Shelf Farm' />
@@ -19,7 +19,7 @@
 	<meta property='og:type' content='article' />
 	<meta property='og:locale' content='en_US' />
 
-	<meta property='og:image' content='https://offtheshelfeggs.com/assets/facebook.png' />
+	<meta property='og:image' content='https://offtheshelfeggs.com/assets/og.png' />
 	<meta property='og:image:type' content='image/png' />
 	<meta property='og:image:width' content='1200' />
 	<meta property='og:image:height' content='600' />
@@ -27,20 +27,63 @@
 	<meta name='twitter:card' content='summary_large_image' />
 	<meta name='twitter:site' content='https://offtheshelfeggs.com' />
 	<meta name='twitter:creator' content='codenberg' />
-	<meta name='twitter:title' content='Formosana' />
+	<meta name='twitter:title' content='Off the Shelf Farm' />
 	<meta name='twitter:description' content='Raising grass-fed eggs, lamb, and chicken in The Berkshires.' />
-	<meta name='twitter:image:src' content='https://offtheshelfeggs.com/assets/twitter.png' />
+	<meta name='twitter:image:src' content='https://offtheshelfeggs.com/assets/og.png' />
 
-	<!-- <link href='https://fonts.googleapis.com/css?family=PT+Mono' rel="stylesheet"> -->
-	<!-- <link href='https://fonts.googleapis.com/css?family=Roboto' rel="stylesheet"> -->
-	<!-- <link href="https://fonts.googleapis.com/css?family=Arvo|Zilla+Slab|IBM+Plex+Mono" rel="stylesheet"> -->
-	<link href="https://fonts.googleapis.com/css?family=Zilla+Slab:600" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Tinos:400,700" rel="stylesheet">
+	<style>
+		/* zilla-slab-600 - latin */
+		@font-face {
+			font-family: 'Zilla Slab';
+			font-style: normal;
+			font-weight: 600;
+			src: local('Zilla Slab SemiBold'), local('ZillaSlab-SemiBold'),
+				url('fonts/zilla-slab-v4-latin-600.woff2') format('woff2'),
+				/* Chrome 26+, Opera 23+, Firefox 39+ */
+				url('fonts/zilla-slab-v4-latin-600.woff') format('woff');
+			/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		}
 
+		/* tinos-regular - latin */
+		@font-face {
+			font-family: 'Tinos';
+			font-style: normal;
+			font-weight: 400;
+			src: local('Tinos Regular'), local('Tinos-Regular'),
+				url('fonts/tinos-v12-latin-regular.woff2') format('woff2'),
+				/* Chrome 26+, Opera 23+, Firefox 39+ */
+				url('fonts/tinos-v12-latin-regular.woff') format('woff');
+			/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		}
 
-
+		/* tinos-700 - latin */
+		@font-face {
+			font-family: 'Tinos';
+			font-style: normal;
+			font-weight: 700;
+			src: local('Tinos Bold'), local('Tinos-Bold'),
+				url('fonts/tinos-v12-latin-700.woff2') format('woff2'),
+				/* Chrome 26+, Opera 23+, Firefox 39+ */
+				url('fonts/tinos-v12-latin-700.woff') format('woff');
+			/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		}
+	</style>
 	<link href='reset.css' rel='stylesheet'>
-	<link href='style.css?version=20190504' rel='stylesheet'>
+	<link href='style.css?version=20190505' rel='stylesheet'>
+	<link rel='preload' type='font/woff2' as='font' crossorigin href='assets/fonts/zilla-slab-v4-latin-600.woff2'>
+	<link rel='preload' type='font/woff2' as='font' crossorigin href='assets/fonts/tinos-v12-latin-regular.woff2'>
+	<link rel='preload' type='font/woff2' as='font' crossorigin href='assets/fonts/tinos-v12-latin-700.woff2'>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-37736972-7"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-37736972-7');
+	</script>
+
 </head>
 
 <body>
