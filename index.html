@@ -239,12 +239,13 @@
 		}
 
 		function init() {
-			var imageSizes = [800, 1600, 2400];
+			var imageSizes = [1600, 2400];
 			var header = document.querySelector('header');
 			var headerBg = document.querySelector('.header__bg');
 			var width = header.offsetWidth * Math.min(2, window.devicePixelRatio);
 			var filtered = imageSizes.filter(function (d) { return d > width; });
 			var size = filtered.length ? filtered[0] : imageSizes.pop();
+			console.log(size);
 			var url = 'assets/bg-' + size + '.jpg';
 			loadImage(url, function () {
 				headerBg.style.backgroundImage = 'url(' + url + ')';
