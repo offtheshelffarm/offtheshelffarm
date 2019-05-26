@@ -246,7 +246,7 @@
 			var filtered = imageSizes.filter(function (d) { return d > width; });
 			var size = filtered.length ? filtered[0] : imageSizes.pop();
 			console.log(size);
-			var url = 'assets/bg-' + size + '.jpg';
+			var url = 'assets/bg2-' + size + '.jpg';
 			loadImage(url, function () {
 				headerBg.style.backgroundImage = 'url(' + url + ')';
 				headerBg.style.opacity = 1;
