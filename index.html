@@ -120,9 +120,10 @@
 	<main id='content'>
 
 		<section id='intro'>
-			<p class='big'>Off the Shelf is a pasture-based farm, where flocks of chickens and sheep rotate through the hilly
+			<h2><span>Off the Shelf</span> is a pasture-based farm, where flocks of chickens and sheep rotate
+				through the hilly
 				pastures of
-				Mill River, MA.</p>
+				Mill River, MA.</h2>
 
 			<svg class='eggs' x="0px" y="0px" viewBox="0 0 100 125" xml:space="preserve">
 				<switch>
@@ -245,7 +246,6 @@
 			var width = header.offsetWidth * Math.min(2, window.devicePixelRatio);
 			var filtered = imageSizes.filter(function (d) { return d > width; });
 			var size = filtered.length ? filtered[0] : imageSizes.pop();
-			console.log(size);
 			var url = 'assets/bg2-' + size + '.jpg';
 			loadImage(url, function () {
 				headerBg.style.backgroundImage = 'url(' + url + ')';
