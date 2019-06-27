@@ -67,9 +67,9 @@ header {
 	font-size: 4rem;
 	/* color: #db57a4; */
 	color: #fff;
-	display:none;
 	padding: 0 2rem;
 	text-shadow: -3px -3px 1px rgba(0,0,0,0.02), -3px -2px 1px rgba(0,0,0,0.02), -3px -1px 1px rgba(0,0,0,0.02), -3px 0px 1px rgba(0,0,0,0.02), -3px 1px 1px rgba(0,0,0,0.02), -3px 2px 1px rgba(0,0,0,0.02), -3px 3px 1px rgba(0,0,0,0.02), -2px -3px 1px rgba(0,0,0,0.02), -2px -2px 1px rgba(0,0,0,0.02), -2px -1px 1px rgba(0,0,0,0.02), -2px 0px 1px rgba(0,0,0,0.02), -2px 1px 1px rgba(0,0,0,0.02), -2px 2px 1px rgba(0,0,0,0.02), -2px 3px 1px rgba(0,0,0,0.02), -1px -3px 1px rgba(0,0,0,0.02), -1px -2px 1px rgba(0,0,0,0.02), -1px -1px 1px rgba(0,0,0,0.02), -1px 0px 1px rgba(0,0,0,0.02), -1px 1px 1px rgba(0,0,0,0.02), -1px 2px 1px rgba(0,0,0,0.02), -1px 3px 1px rgba(0,0,0,0.02), 0px -3px 1px rgba(0,0,0,0.02), 0px -2px 1px rgba(0,0,0,0.02), 0px -1px 1px rgba(0,0,0,0.02), 0px 1px 1px rgba(0,0,0,0.02), 0px 2px 1px rgba(0,0,0,0.02), 0px 3px 1px rgba(0,0,0,0.02), 1px -3px 1px rgba(0,0,0,0.02), 1px -2px 1px rgba(0,0,0,0.02), 1px -1px 1px rgba(0,0,0,0.02), 1px 0px 1px rgba(0,0,0,0.02), 1px 1px 1px rgba(0,0,0,0.02), 1px 2px 1px rgba(0,0,0,0.02), 1px 3px 1px rgba(0,0,0,0.02), 2px -3px 1px rgba(0,0,0,0.02), 2px -2px 1px rgba(0,0,0,0.02), 2px -1px 1px rgba(0,0,0,0.02), 2px 0px 1px rgba(0,0,0,0.02), 2px 1px 1px rgba(0,0,0,0.02), 2px 2px 1px rgba(0,0,0,0.02), 2px 3px 1px rgba(0,0,0,0.02), 3px -3px 1px rgba(0,0,0,0.02), 3px -2px 1px rgba(0,0,0,0.02), 3px -1px 1px rgba(0,0,0,0.02), 3px 0px 1px rgba(0,0,0,0.02), 3px 1px 1px rgba(0,0,0,0.02), 3px 2px 1px rgba(0,0,0,0.02), 3px 3px 1px rgba(0,0,0,0.02);
+	opacity: 0;
 }
 
 .header__fade {
