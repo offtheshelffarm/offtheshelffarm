@@ -9,10 +9,6 @@
 		content='Raising grass-fed eggs, lamb, and chicken in The Berkshires. Off the Shelf eggs are available at Guido’s Fresh Marketplace and The Berskhire Food Co-op in Great Barrington.'>
 	<meta name='author' content='Off the Shelf Farm'>
 	<meta name='keywords' content='off the shelf eggs, farm, eggs, chicken, lamb, grass-fed, berkshires, massachusetts'>
-	<meta itemprop='image' content=''>
-	<meta description='itemprop' content=''>
-	<meta itemprop='keywords'
-		content='off the shelf eggs, farm, eggs, chicken, lamb, grass-fed, berkshires, massachusetts'>
 
 	<meta property='og:title' content='Off the Shelf Farm' />
 	<meta property='og:site_name' content='Off the Shelf Farm' />
@@ -115,7 +111,7 @@
 				<switch>
 					<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1"
 						height="1" />
-					<g i:extraneous="self">
+					<g>
 						<g>
 							<path
 								d="M78.7,23.4c-3.3,0-6.5,1.8-9.3,4.8c4.4,7.8,6.9,17.5,6.9,26.7c0,8.3-2.1,15.5-6.1,21c2.6,1.4,5.5,2.1,8.5,2.1     c10,0,18.8-8,18.8-23S88.8,23.4,78.7,23.4z" />
@@ -139,12 +135,12 @@
 			<img src='assets/sheep.jpg' alt='sheep in pasture'>
 		</section>
 
-		<section id='signup'>
+		<section>
 			<svg class='eggs' x="0px" y="0px" viewBox="0 0 100 125" xml:space="preserve">
 				<switch>
 					<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1"
 						height="1" />
-					<g i:extraneous="self">
+					<g>
 						<g>
 							<path
 								d="M78.7,23.4c-3.3,0-6.5,1.8-9.3,4.8c4.4,7.8,6.9,17.5,6.9,26.7c0,8.3-2.1,15.5-6.1,21c2.6,1.4,5.5,2.1,8.5,2.1     c10,0,18.8-8,18.8-23S88.8,23.4,78.7,23.4z" />
@@ -175,7 +171,7 @@
 			<switch>
 				<foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1"
 					height="1" />
-				<g i:extraneous="self">
+				<g>
 					<g>
 						<path
 							d="M78.7,23.4c-3.3,0-6.5,1.8-9.3,4.8c4.4,7.8,6.9,17.5,6.9,26.7c0,8.3-2.1,15.5-6.1,21c2.6,1.4,5.5,2.1,8.5,2.1     c10,0,18.8-8,18.8-23S88.8,23.4,78.7,23.4z" />
@@ -188,7 +184,7 @@
 			</switch>
 		</svg>
 
-		<a class='footer__email' target='_blank' href='mailto:offtheshelfeggs@yahoo.com' target='_blank'>
+		<a class='footer__email' href='mailto:offtheshelfeggs@yahoo.com' target='_blank'>
 			<svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
 				stroke-linejoin="round" class="feather feather-mail" viewBox="0 0 24 24">
 				<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -217,32 +213,34 @@
 		</a>
 		<p class='footer__icon'>Egg icon by Adrien Coquet from The Noun Project.</p>
 	</footer>
+	<script>
+		(function () {
+			function loadImage(url, cb) {
+				const img = new Image();
+				img.onload = () => cb(null, img);
+				img.onerror = () => cb(`error loading image: ${url}`);
+				img.src = url;
+			}
+
+			function init() {
+				var imageSizes = [1600, 2400];
+				var header = document.querySelector('header');
+				var headerBg = document.querySelector('.header__bg');
+				var width = header.offsetWidth * Math.min(2, window.devicePixelRatio);
+				var filtered = imageSizes.filter(function (d) { return d > width; });
+				var size = filtered.length ? filtered[0] : imageSizes.pop();
+				var url = 'assets/bg2-' + size + '.jpg';
+				loadImage(url, function () {
+					headerBg.style.backgroundImage = 'url(' + url + ')';
+					headerBg.style.opacity = 1;
+				});
+			}
+
+			init();
+		})();
+	</script>
+
 </body>
-<script>
-	(function () {
-		function loadImage(url, cb) {
-			const img = new Image();
-			img.onload = () => cb(null, img);
-			img.onerror = () => cb(`error loading image: ${url}`);
-			img.src = url;
-		}
 
-		function init() {
-			var imageSizes = [1600, 2400];
-			var header = document.querySelector('header');
-			var headerBg = document.querySelector('.header__bg');
-			var width = header.offsetWidth * Math.min(2, window.devicePixelRatio);
-			var filtered = imageSizes.filter(function (d) { return d > width; });
-			var size = filtered.length ? filtered[0] : imageSizes.pop();
-			var url = 'assets/bg2-' + size + '.jpg';
-			loadImage(url, function () {
-				headerBg.style.backgroundImage = 'url(' + url + ')';
-				headerBg.style.opacity = 1;
-			});
-		}
-
-		init();
-	})();
-</script>
 
 </html>
