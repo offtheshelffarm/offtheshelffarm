@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Londrina Solid', Consolas, 'Courier New', monospace;
 }
 
+a, a:visited {
+	color: #db57a4;
+}
+
 header {
 	position: relative;
 	width: 100%;
