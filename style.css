@@ -141,17 +141,15 @@ a.btn, a.btn:visited {
 	margin-top: 3rem;
 	width: 18rem;
 	font-family: 'Londrina Solid', Consolas, 'Courier New', monospace;
-	/* font-family: 'Zilla Slab', Helvetica, sans-serif; */
 	font-weight: 300;
 	text-decoration: none;
 	font-size: 1.5rem;
 	border-radius: 4px;
 	transition: background-color 150ms ease-in-out;
 	text-align: center;
-	/* text-transform: uppercase; */
 }
 
-.btn:hover {
+a.btn:hover {
 	background-color: #e481bb;
 }
 
