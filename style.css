@@ -161,7 +161,8 @@ section h3 {
 	background-repeat: no-repeat;
 } */
 
-section img {
+section img,
+section iframe {
   display: block;
   margin: 2rem auto;
   width: 100%;
