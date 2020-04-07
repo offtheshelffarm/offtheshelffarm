@@ -7,20 +7,28 @@ body {
   /* border: 0.5rem solid #541239; */
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  /* font-family: 'Zilla Slab', Consolas, 'Courier New', monospace; */
-  /* font-family: 'Londrina Outline'; */
+  font-family: 'Zilla Slab', Consolas, 'Courier New', monospace;
+  font-family: 'Londrina Outline';
   font-family: "Londrina Solid", Consolas, "Courier New", monospace;
-}
+} */
 
 a,
 a:visited {
   color: #db57a4;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.center {
+  text-align: center;
 }
 
 header {
@@ -131,14 +139,15 @@ section p {
 }
 
 section h2 {
-  font-family: "Tinos", Georgia, serif;
   line-height: 1.325;
   font-size: 1.5rem;
   text-align: center;
 }
 
-section h2 span {
-  font-weight: 600;
+section h3 {
+  line-height: 1.125;
+  font-size: 1.25rem;
+  text-align: center;
 }
 
 /* section p.big:after {
@@ -292,6 +301,10 @@ footer a svg {
 
   section h2 {
     font-size: 2rem;
+  }
+
+  section h3 {
+    font-size: 1.75rem;
   }
 }
 
