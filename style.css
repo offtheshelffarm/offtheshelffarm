@@ -274,11 +274,15 @@ footer a svg {
 	font-size: 1.625rem;
 }
 
+#special span {
+	display: block;
+}
+
 #special a {
 	display: block;
 	font-weight: bold;
-
 }
+
 @media only screen and (min-width: 500px) {
 	#special p {
 		font-size: 1.75rem;
