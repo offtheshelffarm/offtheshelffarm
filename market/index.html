@@ -7,18 +7,234 @@
 	<title>Off the Shelf Farm</title>
 	<meta name="description" content="Off the Shelf Farm">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='../reset.css' rel='stylesheet'>
 	<style>
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			font-size: 20px;
+		}
+
 		img {
 			display: block;
 			width: 100%;
-			max-width: 480px;
+			max-width: 360px;
 			margin: 1em auto;
+		}
+
+		p {
+			margin-bottom: 1em;
+			line-height: 1.2;
+		}
+
+		br {
+			margin: 0.25em 0;
+		}
+
+		h1 {
+			margin: 0.5em auto;
+			text-align: center;
+			font-weight: 900;
+			font-size: 2em;
+		}
+
+		h2 {
+			margin: 0.5em auto;
+			text-align: center;
+			font-weight: 900;
+			font-size: 1.5em;
+		}
+
+		strong {
+			font-weight: 800;
+			color: #4C6A34;
+		}
+
+		.menu,
+		.sale {
+			max-width: 480px;
+			margin: 0 auto;
+			padding: 1em;
+			text-align: center;
+		}
+
+		.menu p {
+			line-height: 1.6;
+		}
+
+
+		.menu span {
+			margin-left: 0.5em;
+		}
+
+		.lamb {
+			width: 100%;
+			max-width: 480px;
+			margin: 0 auto;
+			margin-bottom: 1em;
+		}
+
+		.lamb td {
+			padding: 0.25em;
+			font-size: 0.85em;
+		}
+
+		.lamb tr:nth-child(even) {
+			background-color: #e5eedd;
+		}
+
+		.lamb td:first-of-type {
+			text-align: left;
+		}
+
+		.lamb td:last-of-type {
+			text-align: right;
+			width: 1em;
+		}
+
+		em {
+			font-size: 0.85em;
+			display: inline-block;
+			font-style: italic;
+			line-height: 1.2;
 		}
 	</style>
 </head>
 
 <body>
-	<img src="https://media.giphy.com/media/tn3kTJo4P4y1G/giphy.gif" alt="gif" />
+	<h1>OFF THE SHELF</h1>
+	<div class='menu'>
+		<h2>Menu</h2>
+		<p>
+			<strong>THE ALL DAY SANDWICH</strong><span>$7</span>
+			<br>
+			our own egg
+			<br>
+			cheddar
+			<br>
+			onion jam
+			<br>
+			markristo arugula
+			<br>
+			wild ramp aioli
+			<br>
+			berkshire mtn brioche bun
+		</p>
+		<p>
+			<strong>JUST EGG & CHEESE</strong><span>$6</span>
+		</p>
+
+		<p>
+			<strong>ADD-ONS</strong>
+			<br>
+			+JACüTERIE bacon<span>$2</span>
+			<br>
+			+double up (two eggs)<span>$2</span>
+		</p>
+		<p>
+			<em>*We do not accept menu substitutions, thank you for understanding.</em>
+		</p>
+	</div>
+
+	<div class='sale'>
+		<h2>FOR SALE</h2>
+		<p>
+			<strong>PASTURE RAISED EGGS</strong>
+			<br>
+			$7/dozen
+		</p>
+
+		<p>
+			<strong>100% GRASSFED LAMB</strong>
+			<br>
+			Priced per pound
+		</p>
+
+		<table class="lamb">
+			<tbody>
+				<tr>
+					<td>Loin Chops</td>
+					<td>$24</td>
+				</tr>
+				<tr>
+					<td>Loin Roast</td>
+					<td>$24</td>
+				</tr>
+				<tr>
+					<td>Boneless Saddle Roast</td>
+					<td>$29</td>
+				</tr>
+				<tr>
+					<td>Rack of Lamb</td>
+					<td>$23</td>
+				</tr>
+				<tr>
+					<td>Rib Chops</td>
+					<td>$23</td>
+				</tr>
+				<tr>
+					<td>Boneless Sirloin Roast</td>
+					<td>$18</td>
+				</tr>
+				<tr>
+					<td>Leg of Lamb</td>
+					<td>$14</td>
+				</tr>
+				<tr>
+					<td>Leg of Lamb, Boneless</td>
+					<td>$16</td>
+				</tr>
+				<tr>
+					<td>Shoulder Roast</td>
+					<td>$13</td>
+				</tr>
+				<tr>
+					<td>Shoulder Roast, Boneless</td>
+					<td>$15</td>
+				</tr>
+				<tr>
+					<td>Shoulder Chops</td>
+					<td>$14</td>
+				</tr>
+				<tr>
+					<td>Ground Lamb</td>
+					<td>$15</td>
+				</tr>
+				<tr>
+					<td>Stew Meat</td>
+					<td>$15</td>
+				</tr>
+				<tr>
+					<td>Kofte Sausage</td>
+					<td>$20</td>
+				</tr>
+				<tr>
+					<td>Garlic Rosemary Sausage</td>
+					<td>$20</td>
+				</tr>
+				<tr>
+					<td>Neck Roast</td>
+					<td>$10</td>
+				</tr>
+				<tr>
+					<td>Lamb Shanks</td>
+					<td>$10</td>
+				</tr>
+				<tr>
+					<td>Liver/Heart/Kidney</td>
+					<td>$6</td>
+				</tr>
+				<tr>
+					<td>Bones</td>
+					<td>$5/bag</td>
+				</tr>
+			</tbody>
+		</table>
+		<p style="text-align: left;">Pasture Raised Whole Chickens and parts coming at the end of May!</p>
+	</div>
+
+	<img src="../assets/venmo.jpg" alt="venmo" />
+	<p style="text-align: center;"><strong>@AnnaHouston</strong></p>
+
 </body>
 
 </html>
