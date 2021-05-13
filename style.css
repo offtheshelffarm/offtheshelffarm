@@ -173,15 +173,10 @@ a.btn:hover {
   background-color: var(--primary-light);
 }
 
-/* .egg {
-	width: 3rem;
+.feet {
 	display: block;
-	margin: 0 auto;
+	width: 96px;
 }
-
-.egg path {
-	fill: var(--primary);
-} */
 
 .eggs {
   width: 3rem;
@@ -205,6 +200,11 @@ footer {
   background-color: #dedede;
   font-weight: 300;
   margin-top: 6rem;
+}
+
+footer img {
+	margin: 2em auto;
+	margin-bottom: 3em;
 }
 
 footer a {
