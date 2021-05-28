@@ -66,27 +66,27 @@
 			margin-left: 0.5em;
 		}
 
-		.lamb {
+		table {
 			width: 100%;
 			max-width: 480px;
 			margin: 0 auto;
-			margin-bottom: 1em;
+			margin-bottom: 2em;
 		}
 
-		.lamb td {
+		table td {
 			padding: 0.5em;
 			font-size: 0.9em;
 		}
 
-		.lamb tr:nth-child(even) {
+		table tr:nth-child(even) {
 			background-color: #e5eedd;
 		}
 
-		.lamb td:first-of-type {
+		table td:first-of-type {
 			text-align: left;
 		}
 
-		.lamb td:last-of-type {
+		table td:last-of-type {
 			text-align: right;
 			width: 1em;
 		}
@@ -111,6 +111,11 @@
 			text-align: center;
 			margin: 2em auto;
 			margin-bottom: 4em;
+		}
+
+		.sale p.highlight {
+			font-size: 1.4em;
+			margin-bottom: 1.5em;
 		}
 	</style>
 </head>
@@ -153,17 +158,56 @@
 
 	<div class='sale'>
 		<h2>For Sale</h2>
-		<p>
+		<p class='highlight'>
 			<strong>PASTURE RAISED EGGS</strong>
 			<br>
 			$7/dozen
 		</p>
 
 		<p>
+			<strong>NON-GMO, PASTURE RAISED CHICKEN</strong>
+			<br>
+			Priced per pound
+		</p>
+
+		<table class="chicken">
+			<tbody>
+				<tr>
+					<td>Whole Chicken</td>
+					<td>$6</td>
+				</tr>
+				<tr>
+					<td>Chicken Breast, Boneless</td>
+					<td>$13</td>
+				</tr>
+				<tr>
+					<td>Chicken Thighs</td>
+					<td>$10</td>
+				</tr>
+				<tr>
+					<td>Chicken Drumsticks</td>
+					<td>$8</td>
+				</tr>
+				<tr>
+					<td>Chicken Wings</td>
+					<td>$7</td>
+				</tr>
+				<tr>
+					<td>Chicken Feet</td>
+					<td>$5/bag</td>
+				</tr>
+				<tr>
+					<td>Chicken Livers & Hearts</td>
+					<td>$5/bag</td>
+				</tr>
+		</table>
+
+		<p>
 			<strong>100% GRASSFED LAMB</strong>
 			<br>
 			Priced per pound
 		</p>
+
 
 		<table class="lamb">
 			<tbody>
@@ -245,7 +289,7 @@
 				</tr>
 			</tbody>
 		</table>
-		<p style="text-align: left;">Pasture Raised Whole Chickens and parts coming at the end of May!</p>
+
 	</div>
 
 	<div class="venmo">
