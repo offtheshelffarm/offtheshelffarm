@@ -2,6 +2,7 @@
 	--shadow: rgba(0,0,0,0.5);
 	--primary: #4C6A34;
 	--primary-light: #658c45;
+	--secondary: #BE472F;
 }
 
 body {
@@ -243,17 +244,20 @@ footer a svg {
 }
 
 #special {
-  border: 2px solid var(--primary);
+  /* border: 2px solid var(--secondary); */
+	background-color: var(--secondary);
   padding: 1rem;
   max-width: 40rem;
   margin: 0 auto;
   margin-top: 3rem;
+	border-radius: 4px;
 }
 
 #special p {
   text-align: center;
   margin-bottom: 0;
 	font-size: 1.625rem;
+	color: white;
 }
 
 #special span {
@@ -263,6 +267,7 @@ footer a svg {
 #special a {
 	display: block;
 	font-weight: bold;
+	color: white;
 }
 
 @media only screen and (min-width: 500px) {
